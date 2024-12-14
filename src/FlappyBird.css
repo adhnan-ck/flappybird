@@ -1,0 +1,54 @@
+@import url('https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap');
+
+.high-score-overlay {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background: rgba(29, 27, 25, 0.733); /* Semi-transparent black */
+    color: rgba(255, 255, 255, 0.959);
+    text-align: center;
+    padding: 20px;
+    border-radius: 10px;
+    z-index: 10; /* Ensure it overlays the canvas */
+    font-family: "Press Start 2P", system-ui;
+    -webkit-text-stroke:  black;
+    font-style: normal;
+    font-weight: 400;
+    width: 350px; /* Set a fixed width */
+    height: 250px; /* Set a fixed height */
+    
+}
+
+.flappy-bird-container {
+    position: relative; /* Keeps the container fixed to the screen */
+    top: 35px; /* Adjust top distance to your preference */
+    left: 50%; /* Centers the container horizontally */
+    transform: translateX(-50%); /* Offset the container by 50% of its width to truly center it */
+    width: 100%;
+    max-width: 400px;
+    background-image: url('C:/Users/adhna/OneDrive/Desktop/flappyBird-react/flappybird/public/images/flappybirdbg.png');
+    background-size: cover; /* Ensures the background image covers the container */
+    z-index: 10; /* Optional: Ensure it sits on top of other elements */
+}
+
+
+.score-board {
+    margin-top: 20px;
+    text-align: center;
+    font-size: 20px;
+}
+
+button {
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-weight: 400;
+    font-size: large;
+    background-color: rgb(255, 103, 2);
+    color: white;
+    border-radius: 10px;
+    font-family: "Press Start 2P", system-ui;
+    -webkit-text-stroke:  rgba(0, 4, 3, 0.898);
+    font-style: normal;
+    font-weight: 400;
+    padding: 10px;
+}
